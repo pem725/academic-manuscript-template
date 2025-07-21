@@ -24,3 +24,26 @@ A standardized template for academic manuscripts using Quarto and R, designed fo
 3. Follow the prompts for Zotero integration
 
 ## File Structure
+
+academic-manuscript-template/
+├── .github/
+│   ├── workflows/
+│   │   └── render-quarto.yml
+│   └── ISSUE_TEMPLATE/
+│       └── manuscript-checklist.md
+├── templates/
+│   ├── manuscript_template.qmd
+│   ├── apa7.docx
+│   └── functions_template.R
+├── styles/
+│   ├── apa7.csl
+│   └── custom-academic.scss
+├── data/
+│   ├── example_data.csv
+│   └── data_dictionary.md
+├── scripts/
+│   ├── setup_project.R
+│   └── render_all_formats.R
+├── README.md
+├── .gitignore
+└── _quarto.yml
