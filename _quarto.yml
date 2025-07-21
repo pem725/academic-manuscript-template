@@ -1,0 +1,30 @@
+project:
+  type: default
+  
+format:
+  html:
+    theme: 
+      - cosmo
+      - styles/custom-academic.scss
+    toc: true
+    toc-location: left
+    code-fold: true
+    code-tools: true
+    
+  pdf:
+    documentclass: article
+    geometry: 
+      - margin=1in
+    fontsize: 12pt
+    linestretch: 2
+    
+  docx:
+    reference_docx: templates/apa7.docx
+
+execute:
+  warning: false
+  message: false
+  echo: true
+  
+bibliography: references/references.bib
+csl: styles/apa7.csl
