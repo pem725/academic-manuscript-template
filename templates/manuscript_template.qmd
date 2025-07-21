@@ -1,0 +1,100 @@
+---
+title: "Manuscript Title"
+author: 
+  - name: Patrick E. McKnight
+    orcid: 0000-0002-9067-9066
+    email: pmcknigh@gmu.edu
+    affiliation: 
+      name: George Mason University
+      department: Department of Psychology
+    role: "corresponding author"
+  - name: Todd B. Kashdan
+    orcid: 0000-0001-6438-0485
+    email: tkashdan@gmu.edu
+    affiliation: 
+      name: George Mason University
+      department: Department of Psychology
+    role: "co-author"
+format: 
+  html:
+    toc: true
+    code-fold: false
+    theme: custom-academic.scss
+  pdf:
+    toc: true
+    colorlinks: true
+    geometry: 
+      - margin=1in
+  docx:
+    reference_docx: "templates/apa7.docx"
+    toc: true
+    fig_width: 6
+    fig_height: 4
+    fig_caption: true
+    number_sections: true
+bibliography: references/references.bib
+csl: styles/apa7.csl
+---
+
+# Abstract
+
+Brief summary of the study, methodology, findings, and implications.
+
+**Keywords:** keyword1, keyword2, keyword3
+
+# Introduction
+
+## Background and Rationale
+
+## Literature Review
+
+## Current Study
+
+### Research Questions
+1. Primary research question
+2. Secondary research question
+
+### Hypotheses
+- H1: Hypothesis statement
+- H2: Hypothesis statement
+
+# Method
+
+## Participants
+
+## Measures
+
+## Procedure
+
+## Data Analysis Plan
+
+# Results
+
+## Preliminary Analyses
+
+## Primary Analyses
+
+## Secondary Analyses
+
+# Discussion
+
+## Summary of Findings
+
+## Theoretical Implications
+
+## Practical Implications
+
+## Limitations
+
+## Future Directions
+
+# Conclusion
+
+# References
+
+::: {#refs}
+:::
+
+# Appendix
+
+## Supplementary Materials
