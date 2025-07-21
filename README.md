@@ -47,3 +47,40 @@ academic-manuscript-template/
 ├── README.md
 ├── .gitignore
 └── _quarto.yml
+
+## Requirements
+
+- R (≥ 4.0.0)
+- Quarto CLI
+- RStudio (recommended)
+- Git
+- Zotero (for reference management)
+
+## Usage
+
+1. **Setup**: Install required packages using `scripts/setup_project.R`
+2. **Data**: Place data files in `data/` directory
+3. **Analysis**: Edit the main `.qmd` file with your analysis
+4. **Render**: Use `quarto render manuscript.qmd` to generate outputs
+5. **Version Control**: Commit changes regularly to Git
+
+## Citation Style
+
+This template uses APA 7th edition formatting. To use a different style:
+1. Download the appropriate `.csl` file
+2. Place it in `styles/` directory
+3. Update the `csl` field in the YAML header
+
+## Contributing
+
+This template is designed for the McKnight Lab at George Mason University. 
+For suggestions or improvements, please open an issue.
+
+## Authors
+
+- Patrick E. McKnight (pmcknigh@gmu.edu)
+- Todd B. Kashdan (tkashdan@gmu.edu)
+
+## License
+
+MIT License - feel free to adapt for your own use.
