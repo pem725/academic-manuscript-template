@@ -1,0 +1,43 @@
+# R and RStudio
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Quarto
+/.quarto/
+_site/
+.quarto
+
+# Output files (can be regenerated)
+output/*.html
+output/*.pdf
+output/*.docx
+
+# Data files (adjust as needed)
+data/*.zip
+data/*.tar.gz
+data/raw_large_files/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
+*.bak
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
+
+# Secrets
+.env
+*.key
+credentials/
